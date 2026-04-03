@@ -4,6 +4,8 @@ on:
   push:
     branches: [main]
 
+# VERCEL_TOKEN and SLACK_WEBHOOK_URL secrets required
+
 jobs:
   deploy:
     runs-on: ubuntu-latest
